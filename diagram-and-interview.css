@@ -1,0 +1,13 @@
+.diagram-lines { position:absolute; inset:0; z-index:1; width:100%; height:100%; pointer-events:none; }
+.diagram-lines line { stroke:#aabbd7; stroke-width:.45; }
+.diagram-lines marker path { fill:#aabbd7; }
+.interview-section { margin-top:76px; padding-top:32px; border-top:1px solid var(--line); }
+.interview-section > .eyebrow { color:var(--gold); }
+.interview-section h2 { margin-top:8px; }
+.question-list { margin-top:28px; border-top:1px solid var(--line); }
+.question { display:grid; grid-template-columns:110px 1fr; gap:20px; padding:20px 0; border-bottom:1px solid var(--line); }
+.question span { align-self:start; color:var(--gold); font:11px 'DM Mono',monospace; letter-spacing:.08em; text-transform:uppercase; }
+.question details { width:100%; }
+.question summary { cursor:pointer; font-size:17px; font-weight:500; }
+.question details p { margin:13px 0 0; color:#4e586a; }
+@media(max-width:700px) { .question { grid-template-columns:1fr; gap:7px; } }
